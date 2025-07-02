@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Great Viggio</title>
+    <link rel="icon" href="logo.png.jpeg">
+   <link rel="stylesheet" href="css/dashboard.css">
+
+
+    <!-- FontAwesome para íconos -->
+    <script src="https://kit.fontawesome.com/tu_clave.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="container">
+            <h1>Great Viggio</h1>
+            <nav class="header-navigation">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#espacios">Espacios</a></li>
+                    <li><a href="#servicio">Servicios</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                    <li><a href="vistas/login.jsp">Iniciar sesion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero">
+        <img src="img/cama.png" alt="Habitación Hotel Great Viggio">
+        <div class="hero-text">
+            "Donde el confort se convierte en arte."
+        </div>
+    </section>
+
+    <!-- Bienvenida -->
+    <div id="inicio" class="bienvenida">
+        <div class="txt">
+            <h2>Bienvenido a Great Viggio</h2>
+            <p class="texto1">
+             En nuestro hotel, traemos un pedacito de Italia a Colombia, fusionando la calidez y hospitalidad italianas con la riqueza cultural y la belleza natural de este país. Nos enorgullece ofrecer una experiencia única que combina la elegancia del diseño italiano, el sabor auténtico de su gastronomía y un servicio excepcional que hace sentir a cada huésped como en casa. Ubicados en un entorno privilegiado, nuestro hotel es el lugar ideal para quienes buscan confort, estilo y una atención al detalle que refleja la pasión italiana por la excelencia. Ya sea que viaje por placer o negocios, estamos comprometidos a hacer de su estadía uña experiencia inolvidable.
+            </p>
+        </div>
+        <img class="edificio" src="img/hotel.png" alt="edificio">
+    </div>
+
+    <!-- Espacios -->
+<section id="espacios" class="espacios-section">
+  <h2 class="espacios-title">Nuestros Espacios</h2>
+  <div class="carousel-box">
+    <!-- Inputs de control -->
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <input type="radio" name="slider" id="slide5">
+    <input type="radio" name="slider" id="slide6">
+    <input type="radio" name="slider" id="slide7">
+    <input type="radio" name="slider" id="slide8">
+
+    <!-- Slides principales -->
+    <div class="main-images">
+      <div class="slide">
+        <img src="img/reuniones.jpg" alt="Reuniones">
+        <div class="description-scroll">
+          <h3>Reuniones</h3>
+          <p>Espacios modernos para reuniones y eventos corporativos.</p>
+        </div>
+        <label for="slide8" class="prev">&#10094;</label>
+        <label for="slide2" class="next">&#10095;</label>
+      </div>
+      <div class="slide">
+        <img src="img/spa.jpg" alt="Spa">
+        <div class="description-scroll">
+          <h3>Spa</h3>
+          <p>Relájese en nuestro spa de lujo con tratamientos exclusivos.</p>
+        </div>
+        <label for="slide1" class="prev">&#10094;</label>
+        <label for="slide3" class="next">&#10095;</label>
+      </div>
+      <div class="slide">
+        <img src="img/gym.jpg" alt="Gimnasio">
+        <div class="description-scroll">
+          <h3>Gimnasio</h3>
+          <p>Equipado con máquinas de última generación.</p>
+        </div>
+        <label for="slide2" class="prev">&#10094;</label>
+        <label for="slide4" class="next">&#10095;</label>
+      </div>
+      <div class="slide">
+        <img src="img/piscina.jpg" alt="Piscina">
+        <div class="description-scroll">
+          <h3>Piscina</h3>
+          <p>Piscina climatizada con vista panorámica.</p>
+        </div>
+        <label for="slide3" class="prev">&#10094;</label>
+        <label for="slide5" class="next">&#10095;</label>
+      </div>
+      <div class="slide">
+        <img src="img/bar.jpg" alt="Bar">
+        <div class="description-scroll">
+          <h3>Bar</h3>
+          <p>Bebidas premium y cócteles exclusivos.</p>
+        </div>
+        <label for="slide4" class="prev">&#10094;</label>
+        <label for="slide6" class="next">&#10095;</label>
+      </div>
+      <div class="slide">
+        <img src="img/restaurante.jpg" alt="Restaurante">
+        <div class="description-scroll">
+          <h3>Restaurante</h3>
+          <p>Menú internacional y cocina local gourmet.</p>
+        </div>
+        <label for="slide5" class="prev">&#10094;</label>
+        <label for="slide7" class="next">&#10095;</label>
+      </div>
+      <div class="slide">
+        <img src="img/recepcion.jpg" alt="Recepción">
+        <div class="description-scroll">
+          <h3>Recepción</h3>
+          <p>Atención personalizada 24/7.</p>
+        </div>
+        <label for="slide6" class="prev">&#10094;</label>
+        <label for="slide8" class="next">&#10095;</label>
+      </div>
+      <div class="slide">
+        <img src="img/coliseo.jpg" alt="Coliseo">
+        <div class="description-scroll">
+          <h3>Coliseo</h3>
+          <p>Eventos y espectáculos con gran capacidad.</p>
+        </div>
+        <label for="slide7" class="prev">&#10094;</label>
+        <label for="slide1" class="next">&#10095;</label>
+      </div>
+    </div>
+
+    <!-- Miniaturas -->
+    <div class="thumbnails-container">
+      <div class="thumbnails">
+        <label for="slide1"><img src="img/reuniones.jpg" alt="Reuniones"></label>
+        <label for="slide2"><img src="img/spa.jpg" alt="Spa"></label>
+        <label for="slide3"><img src="img/gym.jpg" alt="Gimnasio"></label>
+        <label for="slide4"><img src="img/piscina.jpg" alt="Piscina"></label>
+        <label for="slide5"><img src="img/bar.jpg" alt="Bar"></label>
+        <label for="slide6"><img src="img/restaurante.jpg" alt="Restaurante"></label>
+        <label for="slide7"><img src="img/recepcion.jpg" alt="Recepción"></label>
+        <label for="slide8"><img src="img/coliseo.jpg" alt="Coliseo"></label>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Servicios -->
+    <div id="servicio" class="servicios-section">
+        <h2 class="servicios-title">Nuestros Servicios</h2>
+        <div class="servicios-container">
+            <div class="servicio-item">
+                <img src="img/servicio.png" alt="Servicio a la Habitación">
+                <h3>Servicio a la Habitación</h3>
+                <p>Comida gourmet sin salir de tu habitación.</p>
+            </div>
+            <div class="servicio-item">
+                <img src="img/HabitacioLujo.png" alt="Habitaciones de lujo">
+                <h3>Habitaciones de lujo</h3>
+                <p>Confort y diseño moderno para una estadía inolvidable.</p>
+            </div>
+            <div class="servicio-item">
+                <img src="img/comodidades.png" alt="Comodidades">
+                <h3>Comodidades</h3>
+                <p>Gimnasio, spa, piscina, sala de juegos y más.</p>
+            </div>
+            <div class="servicio-item">
+                <img src="img/Restaurante.png" alt="Restaurante">
+                <h3>Restaurante</h3>
+                <p>Platos gourmet preparados por chefs de clase mundial.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contacto (footer) -->
+    <footer class="footer" id="contactos">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Great Viggio</h3>
+                <p>Disfruta de la hospitalidad italiana en Colombia.</p>
+                <div class="contact">
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Principal #123, Ciudad</p>
+                    <p><i class="fas fa-phone"></i> +57 123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@greatviggio.com</p>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#espacios">Espacios</a></li>
+                    <li><a href="#servicio">Servicios</a></li>
+                    <li><a href="#">Reservaciones</a></li>
+                    <li><a href="#">Galería</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section subscribe">
+                <h3>Suscríbete</h3>
+                <p>Recibe nuestras ofertas y novedades</p>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Ingresa tu email" required>
+                    <button type="submit" class="btn-subscribe">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-tripadvisor"></i></a>
+            </div>
+            <div class="legal-info">
+                <p>&copy; 2024 Hotel Great Viggio. Todos los derechos reservados.</p>
+                <p><a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
